@@ -1,12 +1,39 @@
-# React + Vite
+# 📚 Book Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **responsive React + Tailwind CSS application** to search and explore books using the **Open Library API**.  
+Built as part of an internship assessment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🔍 **Search books** by title using Open Library API
+- 📖 View book details (author, year, first publish year, cover)
+- ⭐ Save & manage favorites (stored in `localStorage`)
+- 🖼️ Beautiful, responsive UI with Tailwind CSS
+- 🌓 Gradient design + hover animations
+- 📱 Mobile-first responsive layout
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React** (Vite as bundler)
+- **Tailwind CSS** for styling
+- **Open Library API** for fetching books
+
+---
+
+## 📂 Project Structure
+- `App.jsx` → Main app
+- `components/Header.jsx` → Top navigation bar
+- `components/Footer.jsx` → Footer with credits
+- `components/Home.jsx` → Book Finder UI + search
+- `index.css` → Tailwind styles
+
+---
+
+## ⚡ Getting Started
+
+### 1. Clone repo
+```bash
+git clone https://github.com/your-username/Book_Finder.git
+cd Book_Finder
